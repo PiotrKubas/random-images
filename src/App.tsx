@@ -2,7 +2,7 @@ import { createRef, useMemo, useRef, useState } from 'react';
 import { ImageList } from './components/image-list/image-list';
 import './App.css';
 
-export const IMAGES_COUNT = 15;
+export const IMAGES_COUNT = 12;
 export const IMAGE_CLIKS_ALLOWED = 5;
 
 function App() {
