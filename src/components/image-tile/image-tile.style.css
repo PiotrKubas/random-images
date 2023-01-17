@@ -1,0 +1,12 @@
+img {
+  border: 5px solid black;
+  max-width: 100%;
+}
+
+.enabled {
+  cursor: pointer;
+}
+
+.disabled {
+  cursor: not-allowed;
+}

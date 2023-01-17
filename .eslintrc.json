@@ -1,0 +1,20 @@
+{
+  "extends": ["plugin:prettier/recommended", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "rules": {
+    // ...
+    "prettier/prettier": [
+      "warn",
+      {
+        "singleQuote": true,
+        "printWidth": 80,
+        "tabWidth": 2,
+        "trailingComma": "es5"
+      }
+    ]
+  },
+  "plugins": ["prettier"]
+}
